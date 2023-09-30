@@ -1,0 +1,39 @@
+# Problem 49: Group Anagrams
+
+## Solution
+
+```java
+class Solution {
+    // O(n * klogk) time, O(n) space
+    public List<List<String>> groupAnagrams(String[] strs) {
+        Map<String, List<String>> map = new HashMap<>();
+
+        for (String str : strs) {
+            char[] arr = str.toCharArray();
+            Arrays.sort(arr);
+            String sorted = new String(arr);
+
+            if (!map.containsKey(sorted)) {
+                map.put(sorted, new ArrayList<>());
+            }
+
+            map.get(sorted).add(str);
+        }
+
+        return new ArrayList<>(map.values());
+    }
+}
+```
+
+## Notes
+
+Each anagram group has a "fingerprint" and it is the sorted word. Each anagram group will result in the same word when sorted. We can use this to group anagrams together.
+
+We are storing each bucket in the hashmap.
+
+## Questions to interviewer
+
+1. Can I use additional space?
+2. Can I assume that the strings are all lowercase?
+3. Can I assume that the strings are all ASCII?
+4. Can I sort the strings in place?
