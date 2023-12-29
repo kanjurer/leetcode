@@ -3,9 +3,7 @@
 ## Solution
 
 ```java
-public class Name{
 
-}
 ```
 
 ## Notes
