@@ -34,7 +34,7 @@ class Solution {
     }
 }
 
-// O(n) time, O(n) space
+// O(nlogn) time, O(1) space
 class Solution {
     public boolean isAnagram(String s, String t) {
         if(s.length() != t.length()) return false;
