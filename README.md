@@ -16,9 +16,11 @@ My leetcode attempts
 | 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)             | Medium     | `Hash Table`, `Two Pointers`, `String`, `Sliding Window` |        |
 | 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)                                               | Medium     | `String`, `Dynamic Programming`                          |        |
 | 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                                               | Easy       | `String`                                                 | Done   |
+| 49   | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                                             | Medium     | `Hash Table`, `String`                                   | Done   |
 | 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)                                                                   | Easy       | `String`                                                 | Done   |
 | 125  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                                                         | Easy       | `Two Pointers`, `String`                                 | Done   |
 | 217  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                                                                     | Easy       | `Array`, `Hash Table`                                    | Done   |
+| 238  | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)                                                 | Medium     | `Array`, `Prefix Sum`                                    | Done   |
 | 242  | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                                               | Easy       | `Hash Table`, `Sort`                                     | Done   |
 | 283  | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                                                                   | Easy       | `Array`, `Two Pointers`                                  | Done   |
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | Easy       | `Array`, `Dynamic Programming`                           | Done   |
@@ -27,8 +29,9 @@ My leetcode attempts
 | 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)                                                 | Easy       | `Tree`, `Recursion`                                      | Done   |
 | 3136 | [Valid Word](https://leetcode.com/problems/valid-word/)                                                                                     | Easy       | `String`, `Hash Table`                                   | Done   |
 
-## Favorite Problems
+## Important Problems
 
 | #    | Title                                                                                                                                       | Difficulty | Key Concepts               |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | -------------------------- |
+| 49   | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                                             | Medium     | Hash Table, String         |
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | Easy       | Array, Dynamic Programming |
