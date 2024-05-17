@@ -8,7 +8,7 @@ My leetcode attempts
 - Java
 
 ## Leetcode Stats
-[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=kanjurer)](https://github.com/kanjurer/leetcode)
+[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=kanjurer)](https://leetcode.com/u/kanjurer/)
 
 ## Problem List
 
