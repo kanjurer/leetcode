@@ -7,6 +7,9 @@ My leetcode attempts
 - Python (preferred since 2023)
 - Java
 
+## Leetcode Stats
+[![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=kanjurer)](https://github.com/kanjurer/leetcode)
+
 ## Problem List
 
 | #    | Title                                                                                                                                       | Difficulty | Tags                                                     | Status |
