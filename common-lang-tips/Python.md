@@ -13,6 +13,43 @@ This is a collection of Python tips and tricks that I have found useful.
 
 ## Useful Functions
 
+### Range
+
+The `range()` function is used to generate a sequence of numbers.
+
+```py
+# Generate numbers from 0 to 4
+range(5) # [0, 1, 2, 3, 4]
+
+# Generate numbers from 1 to 5
+range(1, 6) # [1, 2, 3, 4, 5]
+
+# Generate numbers from 1 to 10 with a step of 2
+range(1, 11, 2) # [1, 3, 5, 7, 9]
+
+# Generate numbers from 10 to 1 with a step of -1
+range(10, 0, -1) # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+```
+
+### Zip
+
+The `zip()` function is used to combine two or more iterables into a single iterable of tuples.
+
+```py
+nums = [1, 2, 3]
+fruits = ['apple', 'banana', 'cherry']
+
+for num, fruit in zip(nums, fruits):
+    print(num, fruit)
+
+"""
+Output:
+1 apple
+2 banana
+3 cherry
+"""
+```
+
 ### Enumerate
 
 The `enumerate()` function is used to iterate over a list and keep track of the index of the current item. It returns a tuple containing the index and the item at that index.
