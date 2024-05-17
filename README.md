@@ -8,6 +8,7 @@ My leetcode attempts
 - Java
 
 ## Leetcode Stats
+
 [![KnlnKS's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=kanjurer)](https://leetcode.com/u/kanjurer/)
 
 ## Problem List
@@ -19,6 +20,7 @@ My leetcode attempts
 | 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)             | Medium     | `Hash Table`, `Two Pointers`, `String`, `Sliding Window` |        |
 | 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)                                               | Medium     | `String`, `Dynamic Programming`                          |        |
 | 14   | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                                               | Easy       | `String`                                                 | Done   |
+| 27   | [Remove Element](https://leetcode.com/problems/remove-element/)                                                                             | Easy       | `Array`, `Two Pointers`                                  | Done   |
 | 49   | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                                             | Medium     | `Hash Table`, `String`                                   | Done   |
 | 58   | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)                                                                   | Easy       | `String`                                                 | Done   |
 | 125  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                                                         | Easy       | `Two Pointers`, `String`                                 | Done   |
