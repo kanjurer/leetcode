@@ -182,3 +182,43 @@ Output:
 {'apple', 'banana', 'cherry'}
 """
 ```
+
+### Dictionary / Hash Map
+
+The `dict()` function is used to create a dictionary.
+The `{}` syntax can also be used to create a dictionary (preferred).
+
+```py
+# Create an empty dictionary
+empty_dict = dict()
+empty_dict = {}
+
+# Create a dictionary with key-value pairs
+fruits = {'apple': 1, 'banana': 2, 'cherry': 3}
+
+# Access a value using the key
+fruits['apple'] # 1
+fruits.get('apple') # 1
+
+# Default value if key does not exist
+fruits.get('mango', 'default fruit') # default fruit
+
+# Add a new key-value pair
+fruits['mango'] = 4
+
+# Remove a key-value pair
+del fruits['apple']
+fruits.pop('banana')
+
+# Check if a key exists
+'apple' in fruits # False
+
+# Get all keys
+fruits.keys() # ['banana', 'cherry', 'mango']
+
+# Get all values
+fruits.values() # [2, 3, 4]
+
+# Get all key-value pairs
+fruits.items() # [('banana', 2), ('cherry', 3), ('mango', 4)]
+```
