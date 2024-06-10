@@ -1,5 +1,7 @@
 # Java
 
+This is a collection of Java tips and tricks that I have found useful.
+
 ## Hash Maps
 
 To check if a key exists, use:
