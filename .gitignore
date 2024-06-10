@@ -1,3 +1,7 @@
+# Config Files
 .idea
 .vscode
 venv
+
+# Others
+template.md
