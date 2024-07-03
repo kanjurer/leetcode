@@ -222,3 +222,41 @@ fruits.values() # [2, 3, 4]
 # Get all key-value pairs
 fruits.items() # [('banana', 2), ('cherry', 3), ('mango', 4)]
 ```
+
+### Heaps
+
+In Python, we can use `heapq` module to use heap functions
+
+```py
+heap = []
+
+heapq.heappush(heap, 3)
+heapq.heappush(heap, 1)
+heapq.heappush(heap, 2)
+
+# [1, 2, 3]
+
+heap[0] # peak: 1
+
+heapq.heappop(heap) # 1
+heapq.heappop(heap) # 2
+heapq.heappop(heap) # 3
+```
+
+By default, `heapq` module creates a min heap. To create a max heap, we need to invert the element before storing them and during retrival, we need to invert them back.
+
+```py
+heap = []
+
+heapq.heappush(heap, -1 * 3)
+heapq.heappush(heap, -1 * 1)
+heapq.heappush(heap, -1 * 2)
+
+# [-3, -2, -1]
+
+-1 * heap[0] # peak: 3
+
+-1 * heapq.heappop(heap) # 3
+-1 * heapq.heappop(heap) # 2
+-1 * heapq.heappop(heap) # 1
+```
