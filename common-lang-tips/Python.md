@@ -116,6 +116,23 @@ Output:
 """
 ```
 
+### Counter
+
+The `Counter` class from the `collections` module is used to count the frequency of elements in an iterable.
+
+```py
+from collections import Counter
+
+nums = [1, 2, 3, 1, 2, 3, 4, 5, 4, 5, 6, 7, 8, 9, 7, 8, 9, 0]
+counter = Counter(nums)
+print(counter)
+
+"""
+Output:
+Counter({1: 2, 2: 2, 3: 2, 4: 2, 5: 2, 6: 1, 7: 2, 8: 2, 9: 2, 0: 1})
+"""
+```
+
 ## Strings
 
 ### Indexing
